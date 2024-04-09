@@ -1,0 +1,632 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+  }
+
+  nav{
+    width: 100%;
+    position: absolute;
+  }
+
+  header{
+    background-image: url('../img/kulturistas-m7oWrM175eu7nJ9O.png');
+    width: 100%;
+    padding-bottom:30rem;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+  }
+   .gg{
+    background-color: antiquewhite;
+
+   }
+
+   .menu{
+    margin-right: -6rem;
+   }
+
+   .head-content{
+    padding-top: 10rem;
+    color: black;
+    margin-top: 6rem;
+    color: white;
+    margin: 3rem;
+    
+   }
+   .logo{
+    color: white;
+    float: left;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Oswald", sans-serif;
+  }
+
+   
+
+/*body{
+  max-width: 100vw;
+}
+nav{
+   position: absolute;
+width: 100%;
+  }
+
+  .mike{
+    width: 100%;
+  }
+
+ 
+  .logo{
+    color: white;
+    float: left;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    font-family: "Oswald", sans-serif;
+  }
+  .head-content{
+    color: black;
+    padding-top: 4rem;
+    color: white;
+    margin: 3rem;
+
+    max-width: 60%;
+  }
+
+  header{
+   background-image: url(/img/kulturistas-m7oWrM175eu7nJ9O.png);
+   width: 100%;
+   padding: 12rem;
+    background-position:top;
+    background-size: cover;
+
+  }
+
+ /*  nav ul li{
+    display: inline-block;
+   line-height:100px;
+   margin:0 5px;
+   color: #000;
+} */
+nav ul li a{
+color:white; 
+gap: 25px;
+font-family: 'Epilogue', sans-serif;
+text-decoration: none;
+font-size: 16px;
+}
+
+@media(min-width:320px){
+.checkbtn{
+    margin-left: -20px;
+}
+}
+
+.checkbtn{
+    font-size: 20px;
+    float: right;
+    margin-top: 2rem;
+    height: fit-content;
+    width: fit-content;
+    margin-right: 90px;
+    cursor: pointer;
+    display:none;
+    align-self:center;
+    color: white;
+}
+.menu{
+    color: white;
+}
+#check{
+    display:none;
+}
+
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+}
+
+span{
+    font-family: "Oswald", sans-serif;
+    margin-top: 5rem;
+}
+
+button{
+    height: 2.5rem;
+    margin-top: 1rem;
+    background-color: red;
+    border: none;
+    width: 8rem;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 15px; 
+    
+}
+
+.image-gallery{
+  
+}
+.rec{
+ display: flex;
+ max-width: 80%;
+ margin: auto;
+padding-top: 0.5rem;
+}
+
+.grid{
+    margin-top: 4rem;
+}
+
+h2{
+    padding-top: 1.5rem;
+    width: 80%;
+    margin: auto;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    max-width: 500px; 
+   
+}
+
+p{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;  
+    padding-top:0.5rem;
+    text-align: center;
+}
+
+.btn{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about{
+   margin-top: 3rem;
+  
+}
+
+.back{
+    background-color: black;
+    max-height: 85vh;
+    padding-bottom: 3rem;
+    background-image: url('../img/Rectangle-YbxWoy3LQXubRjXv.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+   
+}
+
+.margins,.margin{
+    max-width: 86%;
+    margin: auto;
+}
+.classes{
+    margin-top: rem;
+}
+
+.plank{
+    margin-top: -1.6rem;
+   background-color: black;
+    max-height: 100vh;
+    padding-bottom: 3rem;
+    background-image: url('../img/plank-1327256_1280.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:90px bottom left;
+    object-position:c;
+}
+
+h3{
+    color: white;
+    margin: 1.5rem;
+    padding-top: 1rem; 
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+      
+}
+.work{
+    color: white;
+    margin: 1.5rem;
+    padding-top: 1rem; 
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+}
+
+.span{
+   color: white;
+   margin-top: 2rem;
+   font-family: "Oswald", sans-serif;
+   font-size: 15px;
+   margin-left: 1.5rem;
+   margin-right: 3.5rem;
+}
+
+.dde{
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;  
+}
+
+.cta-btn{
+    margin-left: 1.4rem;
+}
+
+h4{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2em;  
+    padding-top:0.5rem;
+    margin-left: 1.6rem;
+    
+}
+footer{
+    background-color: black;
+    justify-content: baseline;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
+    padding-bottom: 9rem;
+}
+
+span{
+    font-size: 1px;
+    color: white;
+    font-style: normal;
+    font-size: 14px;
+    font-family: "Oswald", sans-serif;
+}
+h5{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+}
+.work{
+    width: 80%;
+    margin: auto;
+    padding-top: 1rem;
+}
+.time{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    margin-left: 1.5rem;
+    margin-top: 0.1rem;
+    margin-right: 3.5rem;
+    width: 80%;
+    margin: auto;
+ }
+
+ .Ready-bt{
+   max-width:90%;
+   margin: auto;
+
+ }
+
+ 
+
+.desktop-bg1,.desktop,.text,.photos,.h2{
+  display: none;
+}
+
+
+
+
+    @media(min-width:600px){
+
+        .head-content{
+            padding-top: 6rem;
+            color: black;
+            margin-top: 6rem;
+            color: white;
+            margin: 3rem;
+            max-width:60%;
+        }
+        p{
+            font-weight: 900;
+            font-size: 30px;
+        }
+
+        h2{
+            width: 80%;
+            margin: auto;
+        }
+
+        .span{ 
+          width: fit-content;
+          max-width: 65%;
+          font-size: 20px;
+        }
+
+        .plank{
+            height: 70vh;
+        }
+        .back{
+            height: 70vh;
+        }
+
+        .span{
+
+        }
+    }
+    @media(min-width:728px){
+        .rec{
+            display: flex;
+            max-width: 65%;
+            margin: auto;
+           padding-top: 0.5rem; 
+        }
+
+        .Ready-bt{
+            margin-left: rem;
+        }
+
+        .head-content{
+            margin-right: 25rem;
+        }
+         
+    }
+    @media(min-width:768px){
+.head-content{
+    margin-left: 11rem;
+    }
+   /*  .margin{
+        margin-left: 10rem;
+    }
+    .margins{
+        margin-left: 10rem;
+    } */
+
+    .about-article{
+        margin-top: 6rem;
+    }
+
+    .Ready{
+        display: block;
+    }
+}
+
+@media (min-width:901px){
+    
+        ul{
+            display: flex;
+            gap: 1.5rem;
+            margin-left: 15rem;
+            padding-top:2.5rem;
+            list-style:none;
+           } 
+
+   
+
+    .grid{
+        display: none;
+    }
+    .about{
+        display: none;
+    }
+    .classes{
+        display: none;
+    }
+
+    .logo{
+        font-weight: 900;
+        font-size: 20px;
+    }
+    .desktop-bg1{
+        display: block;
+    }
+
+    .work{
+        margin-top: 9rem;
+    }
+
+    .About{
+        background-color: black;
+        padding-bottom: 5rem;
+    background-image: url('../img/Rectangle-YbxWoy3LQXubRjXv.png');
+    background-size: 42%;
+    background-repeat: no-repeat;
+    background-position:  center right;
+    box-shadow: 20px  solid black;
+    border-color: black;
+    }
+    .Classes{
+        background-color: black;
+        padding-bottom: 30rem;
+    background-image: url('../img/plank-1327256_1280.jpg');
+    background-size: 42%;
+    background-repeat: no-repeat;
+    background-position:  center left;
+    box-shadow: 20px  solid black;
+    border-color: black;
+      
+    }
+
+    .about-article{
+        margin-left: 4rem;
+     
+    }
+    .classes-article{
+        margin-left: 30rem; 
+        padding-top: 4rem; 
+        float: right;
+     
+    }
+    .Ready-bt{
+        display: none;
+    }
+    .span{
+        max-width: 45%;
+        font-size: 17px;
+    }
+    h3{
+        padding-top: 9rem;
+        font-size: 45px;
+    }
+    .cta-btn,button{
+       margin-top: 2rem;
+       height: 3rem;
+       width: 12rem;
+       font-size: 20px;
+    }
+    .class-header{
+    color: white;
+    
+    padding-top: 1rem; 
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    
+    font-weight: 900;
+    }
+
+    .text{
+        color: white;
+        font-family: "Oswald", sans-serif;
+        font-size: 17px;
+        margin-top: 1rem;
+        max-width: 80%;
+        display: block;
+        font-weight: 400;
+    }
+
+    h4{
+        font-size:65px;
+        margin-top: 4rem;
+    }
+    .head-content{
+        width: 60%;
+        margin-left: 6rem;
+        margin-top: -2rem;
+    }
+
+    .dde{
+        font-size: 20px;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+
+    footer{
+        display: flex;
+        
+    }
+
+    h5{
+        font-size: 40px;
+    }
+
+    .work{
+        max-width: 70%;
+        margin: auto;
+        margin-left: 7.5rem;
+        margin-top: 4rem;
+    }
+
+    .photos{
+     width: 60%;
+    margin: auto;
+    display: flex;
+    margin-top: 1rem;
+    }
+    .desktop{
+        display: grid;
+        grid-template-columns:5fr 5fr;
+        margin-top: 4rem;
+    }
+
+    h6,.h2{
+        font-size: 70px;
+       display: flex;
+        color: black;
+        font-family: "Bebas Neue", sans-serif;
+        font-size: 2em;  
+        width: 89%;
+        padding-top: 2rem;
+        margin: auto;
+        font-weight: 900;
+    }
+
+    footer{
+        margin-top: 6rem;
+    }
+
+    .working-hours{
+       display: inline;
+    }
+
+    
+    .Ready{
+        margin-left: 6rem;
+    } 
+}
+
+@media (min-width:1200px){
+        .head-content{
+            margin-top: 9rem;
+        }
+        header{
+            padding-bottom: 50rem;
+        }
+
+        h1{
+            font-size: 100px;
+        }
+        .classes-article{
+            margin-left: 40rem;
+            max-width: 40%;
+    
+        } 
+        .about-article{
+           margin-left: 9rem;
+        } 
+}
+
+
+   @media (max-width:900px){
+        .checkbtn{
+            display: block;
+        }
+    ul{
+     position:absolute;
+     width: 100%;
+     height: vh;
+     background:black;
+     top:-10px;
+     text-align: right;
+   
+     transition:  all 0.5s;
+    }
+    ul:hover{
+        transform: translateY(-100%);
+        
+    }
+    nav ul li{
+        display:block;
+        margin: 35px 0px;
+        line-height: 1px;
+        font-family: "Barlow", sans-serif;
+        font-size: 16px;
+        
+        margin-right: 0.5rem;
+    }
+
+    
+    nav ul li a{
+        font-size:16px;
+         
+    }
+
+    
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
